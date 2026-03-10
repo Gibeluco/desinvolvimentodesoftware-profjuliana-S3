@@ -1,0 +1,12 @@
+public class Aulaq {
+    public static void main(String[] args) {
+        double joao = 1.50;
+        double ze = 1.10;
+        int anos = 0;
+        while (ze <= joao){
+            joao = joao + 0.2;
+            ze = ze + 0.3;
+        }
+        System.out.println("Serão necessarios" + anos + "anos para Zé ficar mais que João.");
+    }
+}
