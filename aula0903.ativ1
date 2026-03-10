@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Aula {
+    public static void main(String[] args){
+        System.out.println("olá mundo!\n");
+
+        Scanner input = new Scanner (System.in);
+        System.out.println("digite um numero:");
+        int numero = input.nextInt();
+        System.out.println("Voce digitou o numero" + numero + "!!");
+
+        System.out.println("digite outro numero:");
+        int numero2 = input.nextInt();
+
+        int soma = numero + numero2;
+        System.out.println("O resultado da soma é: "+ soma);
+
+        input.close();
+    }
+}
