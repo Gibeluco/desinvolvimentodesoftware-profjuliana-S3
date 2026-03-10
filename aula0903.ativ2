@@ -1,0 +1,21 @@
+import javax.swing.JOptionPane;
+
+public class App {
+    public static void main(String[] args) {
+        
+    
+    int num1 = 0;
+    while (num1 < 10) {
+        System.out.println("- " + (num1++));
+    }
+    int num2 = 0;
+    while(num2 < 20) {
+        System.out.println("- " + (num2++));
+    }
+    int num3 = 0, soma = 0;
+    do{
+        num3 = Integer.parseInt(JOptionPane.showInputDialog( null, "valor?"));
+ } while(num3 > 0);
+ System.out.println("soma total:" + soma);
+}
+}
